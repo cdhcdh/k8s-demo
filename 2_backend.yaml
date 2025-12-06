@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        # 👇 아래 [내_ECR_주소]를 본인 주소로 바꾸세요 (대괄호 지우고 주소만!)
-        image: [내_ECR_주소]:v1
+        image: 637423395948.dkr.ecr.ap-northeast-2.amazonaws.com/demo-backend:v1
         args:
         - "-text=Hello! Backend Server is OK."
         ports:
