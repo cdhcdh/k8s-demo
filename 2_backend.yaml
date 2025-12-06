@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 637423395948.dkr.ecr.ap-northeast-2.amazonaws.com/demo-backend:v1
+        image: 637423395948.dkr.ecr.ap-northeast-2.amazonaws.com/demo-backend:v2
         args:
         - "-text=Hello! Backend Server is OK."
         ports:
